@@ -18,5 +18,23 @@ The data has been made available by Motivate International Inc. under this [lice
 3. Are there issues with bias or credibility in this data? Does your data ROCCC? : The data is not biased, is consistent across 12 months and comprehensive.
 4. How did you verify the data’s integrity : Consolidating Data Files in tableau by using tableau union.(all 12 months together)
 5. Are there any problems with the data? : The data has some null values which is handled in next process phase in tableau by using filters and calculated fields.
+## Process phase
+I used tableau public for data analysis and visualization. The dataset had following features :
+ride_id	rideable_type	started_at	ended_at	start_station_name	start_station_id	end_station_name	end_station_id	start_lat	start_lng	end_lat	end_lng	member_casual
+<img width="1687" height="25" alt="image" src="https://github.com/user-attachments/assets/f4fe66f6-c7ce-4c9d-b60b-0351f386654e" />
+
+Following measures were done as part of preprocessing :
+1. Performed Union operation in tableau to merge all datasets of 12 months.
+2. Calculating "Duration" in minutes by using (**DATEDIFF('minute',[Started At],[Ended At])**) formula in tableau.
+3. Duration of 24hrs(i.e 1 to 1440 min ) was applied to each sheet as practically 24hrs duration for a rider is considered.
+3. "ValidStationId" as a calculated field because some records had null fields in start and end station id.
+   formula used NOT ISNULL([Start Station ID]) AND NOT ISNULL([End Station ID])
+4. similarly "validlat/long" calculated field as location should not be missing.
+5. COUNT([Ride Id]) as "RideIDcount", Start_DAY: DATENAME('weekday',[Started At]) , Start_Month: DATENAME('month',[Started At]) ,End_Day, End_Month.
+
+## 
+
+
+
  
 
