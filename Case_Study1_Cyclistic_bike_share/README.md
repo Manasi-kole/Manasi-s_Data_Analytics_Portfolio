@@ -32,7 +32,14 @@ Following measures were done as part of preprocessing :
 4. similarly "validlat/long" calculated field as location should not be missing.
 5. COUNT([Ride Id]) as "RideIDcount", Start_DAY: DATENAME('weekday',[Started At]) , Start_Month: DATENAME('month',[Started At]) ,End_Day, End_Month.
 
-## 
+## Analyse
+I created below charts are part of comparative analysis between casual and member riders:
+1.Count of casual riders vs member ones.
+2.Which bike type is mostly used by riders.
+3. Time based analysis :
+   a. Monthly trip frequency
+   b. How many rides happened in a week along with the duration
+
 
 
 
