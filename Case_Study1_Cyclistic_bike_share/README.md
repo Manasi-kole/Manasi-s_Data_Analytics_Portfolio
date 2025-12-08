@@ -34,11 +34,25 @@ Following measures were done as part of preprocessing :
 
 ## Analyse
 I created below charts are part of comparative analysis between casual and member riders:
-1.Count of casual riders vs member ones.
-2.Which bike type is mostly used by riders.
-3. Time based analysis :
-   a. Monthly trip frequency
-   b. How many rides happened in a week along with the duration
+* Count of casual riders vs member ones.
+* Which bike type is mostly used by riders.
+* Time based analysis :
+   * Monthly trip frequency
+   * How many rides happened in a week along with the duration
+
+## Share
+The Visualizations I created are published on my tableau public profile. You can access it through [here](https://public.tableau.com/views/CasestudyCyclisticBikeShareAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
+Before diving into the visualizations : This take a note of these colours I used throughout the charts.
+
+
+
+<img width="217" height="80" alt="image" src="https://github.com/user-attachments/assets/52b51758-54f2-4709-9018-322df2016fad" />
+
+* Member vs Casual riders ratio
+Post-preprocessing, casual riders represent a marginally lower percentage of the total user base compared to annual members.
+
+<img width="741" height="462" alt="image" src="https://github.com/user-attachments/assets/1dee2c34-8a5c-45a9-80b3-5dae166ce765" />
 
 
 
