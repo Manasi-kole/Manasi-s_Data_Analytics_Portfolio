@@ -3,7 +3,7 @@
 This analysis was completed as part of the **Google Data Analytics Professional Certificate**. It addresses a key business question for **Cyclistic**, a fictional bike-share company.
 The study follows the comprehensive data analysis process (**Ask, Prepare, Process, Analyze, Share, and Act**). All data analysis and visualization were performed using **Tableau Public** to generate actionable insights and recommendations.
 ## Scenario 
-As a junior data analyst, understand and analyse how casual riders and annual members because, the director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Cyclistic executives must approve recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+As a junior data analyst, understand and analyse how casual riders and annual members because, the director of marketing believes the company’s future success depends on (**maximizing the number of annual memberships**). Cyclistic executives must approve recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 ## ASK phase
 By using Cyclistic historical bike trip data identify trends.
 1. How do annual members and casual riders use Cyclistic bikes differently?
@@ -53,6 +53,25 @@ Before diving into the visualizations : This take a note of these colours I used
 Post-preprocessing, casual riders represent a marginally lower percentage of the total user base compared to annual members.
 
 <img width="741" height="462" alt="image" src="https://github.com/user-attachments/assets/1dee2c34-8a5c-45a9-80b3-5dae166ce765" />
+
+* Rider bike type distribution 
+Among classic, electric and docked bike type,  Classic bike types are used in more amount by both cateogories. Docked bike have comparatively less users.
+
+<img width="1066" height="662" alt="image" src="https://github.com/user-attachments/assets/76f45515-45ad-4284-898a-d4c21f88e118" />
+
+* Time based Analysis :
+
+  Monthly trip frequency : Both riders used cyclistic bikes more from April to October(parabolic graph). The highest count is observed in july and august.
+
+  <img width="1066" height="660" alt="image" src="https://github.com/user-attachments/assets/204ee72f-d9fb-4a53-bceb-9d9f54b86012" />
+
+Weekly trip frequency along with its duration :
+Its observed that casual riders ride for more average duration that memeber ones. The duration is more on saturdays and sundays of the week. Members take ride on an average for 10-15 mins. Casual ones take ride for on an average of 20-35 mins.
+
+<img width="1333" height="666" alt="image" src="https://github.com/user-attachments/assets/e985e72b-d88b-4975-a3dd-6d40f86d3d35" />
+
+* Summary :
+  
 
 
 
